@@ -1,0 +1,57 @@
+{
+  "name": "digicoin-insight-api",
+  "description": "A Digicoin blockchain REST and web socket API service for Digicoincore Node.",
+  "author": {
+    "name": "Digicoin",
+    "email": "hello@getdigicoin.io",
+    "url": "https://getdigicoin.io"
+  },
+  "version": "0.0.23",
+  "repository": "git://github.com/digicoinofficial/digicoin-insight-api.git",
+  "contributors": [],
+  "bugs": {
+    "url": "https://github.com/digicoinofficial/digicoin-insight-api/issues"
+  },
+  "homepage": "https://github.com/digicoinofficial/digicoin-insight-api",
+  "license": "MIT",
+  "keywords": [
+    "insight",
+    "insight api",
+    "blockchain",
+    "digicoin api",
+    "blockchain api",
+    "json",
+    "digicoincore"
+  ],
+  "engines": {
+    "node": ">=0.12.0"
+  },
+  "scripts": {
+    "test": "NODE_ENV=test mocha -R spec --recursive"
+  },
+  "main": "lib",
+  "digicoincoreNode": "lib",
+  "dependencies": {
+    "async": "*",
+    "bignumber.js": "^4.0.2",
+    "bitcore-lib": "^0.13.7",
+    "bitcore-message": "^1.0.1",
+    "body-parser": "^1.13.3",
+    "compression": "^1.6.1",
+    "lodash": "^2.4.1",
+    "lru-cache": "^4.0.1",
+    "moment": "^2.19.3",
+    "mongoose": "^4.11.8",
+    "morgan": "^1.7.0",
+    "request": "^2.83.0",
+    "digicoincore-lib": "^0.0.2",
+    "web3": "^0.18.4"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5",
+    "proxyquire": "^1.7.2",
+    "should": "^8.3.1",
+    "sinon": "^1.10.3"
+  }
+}

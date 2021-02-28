@@ -44,7 +44,7 @@
     "mongoose": "^4.11.8",
     "morgan": "^1.7.0",
     "request": "^2.83.0",
-    "digicoincore-lib": "^0.0.2",
+    "digicoincore-lib": "https://github.com/digicoinofficial/digicoincore-lib.git",
     "web3": "^0.18.4"
   },
   "devDependencies": {
